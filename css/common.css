@@ -1,0 +1,140 @@
+
+.header{
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+	overflow: hidden;
+}
+.top {
+	background: #e5e5e5;
+	width: 100%;
+	height: 50px;
+}
+.top .menu{
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.top .menu li{
+	list-style: none;
+	float: left;
+	margin-left: 40px;
+}
+
+.top .menu li a:hover{
+	color: #dd127b;
+}
+
+.top .menu li:first-child{
+	margin-left: 0px;
+}
+.top .menu li img{
+	display: inline-block;
+	padding-right:5px;
+}
+
+.top .menu li span{
+	padding-right:5px;
+}
+.header .container{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header .container .logo{
+	float: left;
+	margin-top: 12px;
+	margin-right: 44px;
+	margin-left: 36px;
+}
+
+.header .container .search{
+	height: 50px;
+	width: 916px;
+	overflow: hidden;
+	float: left;
+	margin-top: 37px;
+
+}
+
+
+.header .container .search .text{
+	width: 834px;
+	height:50px;
+	background: url(../images/common/search.png) no-repeat;
+	background-position: 23px 10px;
+	box-sizing :border-box;
+	float: left;
+
+}
+
+.header .container .search .btn{
+	width: 82px;
+	height:50px;
+	background: url(../images/common/search2.png) no-repeat #1b1b1b;
+	background-position: center;
+	float: left;
+	border:0px;
+}
+
+.header .container .list {
+	width: 900px;
+}
+.header .container .list li{
+	float:left;
+	line-height: 20px;
+	margin-top: 6px;
+}
+
+.header .container .list li a{
+	padding: 0 22px;
+	font-size: 16px;
+	border-right: 2px solid #aeaeae;
+	color: #666666;
+}
+.header .container .list li a.current{
+	color: #dd127b;
+}
+.header .container .list li a:hover{
+	color: #dd127b;
+}
+.header .container .list li:first-child a{
+	padding-left: 0px;
+}
+.header .container .list li:last-child a{
+	border-right: none;
+}
+
+.footer{
+	/*float: left;*/
+	background: #1b1b1b;
+}
+
+.footer .container{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.footer .container p{
+	color:#fdfcfc;
+	font-size: 14px;
+	line-height: 52px;
+	text-align: center;
+
+}
+
+.footer .container p img{
+	display: inline-block;
+	vertical-align: middle; 
+	margin-right: 4px;
+}
+
+.footer .container p:first-child{
+	padding-top: 58px;
+}
+
+.footer .container p:last-child{
+	padding-bottom: 68px;
+}
