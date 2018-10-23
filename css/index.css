@@ -1573,6 +1573,25 @@ body{
 	margin: 0 auto;
 }
 
+.footer .container ul {
+	overflow: hidden;
+	width: 554px;
+	margin:0 auto;
+}
+
+.footer .container ul li {
+	float: left;
+	padding-top: 58px;
+	
+}
+
+.footer .container ul li a{
+	color: #fdfcfc;
+	font-size: 14px;
+	line-height: 52px;
+	text-align: center;
+}
+
 .footer .container p {
 	color: #fdfcfc;
 	font-size: 14px;
@@ -1584,10 +1603,6 @@ body{
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 4px;
-}
-
-.footer .container p:first-child {
-	padding-top: 58px;
 }
 
 .footer .container p:last-child {
